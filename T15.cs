@@ -8,7 +8,7 @@ public class Program
         int number = int.Parse(Console.ReadLine());
         int originalNumber = number;
         int result = 0;
-
+ 
         while (number > 0)
         {
             int digit = number % 10;
@@ -17,7 +17,7 @@ public class Program
         }
 
         if (result == originalNumber)
-        {
+        {//new
             Console.WriteLine(originalNumber + " is an Armstrong number.");
         }
         else
