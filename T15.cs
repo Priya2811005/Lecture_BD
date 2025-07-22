@@ -14,7 +14,7 @@ public class Program
             int digit = number % 10;
             result += digit * digit * digit;
             number /= 10;
-        }
+        }//column
 
         if (result == originalNumber)
         {//new
